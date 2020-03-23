@@ -1,0 +1,17 @@
+<Materials>
+  <Material>
+    <Name>ABS</Name>
+    <SpecificGravity>1.04</SpecificGravity>
+    <Density>1040.0</Density>
+  </Material>
+  <Material>
+    <Name>ASA</Name>
+    <SpecificGravity>1.08</SpecificGravity>
+    <Density>1080.0</Density>
+  </Material>
+  <Material>
+    <Name>SSU00</Name>
+    <SpecificGravity>1.04</SpecificGravity>
+    <Density>1040.0</Density>
+  </Material>
+</Materials>

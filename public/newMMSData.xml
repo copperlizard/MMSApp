@@ -1,0 +1,109 @@
+<MMS ID="1418-0000">
+  <Name>New</Name>
+  <Connected>true</Connected>
+  <RHP>20</RHP>
+  <TempC>23</TempC>
+  <Nozzle num="1">
+    <Diameter>0.4</Diameter>
+    <SetDiameter>0.4</SetDiameter>
+    <HighTemp>false</HighTemp>
+    <SetHighTemp>false</SetHighTemp>
+    <AntiAbrasion>false</AntiAbrasion>
+    <SetAntiAbrasion>false</SetAntiAbrasion>
+    <SPFU>false</SPFU>
+    <SetSPFU>false</SetSPFU>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+  </Nozzle>
+  <Nozzle num="2">
+    <Diameter>0.4</Diameter>
+    <SetDiameter>0.4</SetDiameter>
+    <HighTemp>false</HighTemp>
+    <SetHighTemp>false</SetHighTemp>
+    <AntiAbrasion>false</AntiAbrasion>
+    <SetAntiAbrasion>false</SetAntiAbrasion>
+    <SPFU>false</SPFU>
+    <SetSPFU>false</SetSPFU>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+  </Nozzle>
+  <Nozzle num="3">
+    <Diameter>0.4</Diameter>
+    <SetDiameter>0.4</SetDiameter>
+    <HighTemp>false</HighTemp>
+    <SetHighTemp>false</SetHighTemp>
+    <AntiAbrasion>false</AntiAbrasion>
+    <SetAntiAbrasion>false</SetAntiAbrasion>
+    <SPFU>false</SPFU>
+    <SetSPFU>false</SetSPFU>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+  </Nozzle>
+  <Reel slot="A">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight>
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+  <Reel slot="B">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight>
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+  <Reel slot="C">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight>
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+  <Reel slot="D">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight>
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+  <Reel slot="E">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight> 
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+  <Reel slot="F">
+    <Material></Material>
+    <SetMaterial></SetMaterial>
+    <MaterialDiameter>2.85</MaterialDiameter>
+    <SetMaterialDiameter>2.85</SetMaterialDiameter>
+    <LoadedReelWeight emptyWeight="0.960">2</LoadedReelWeight>
+    <SetLoadedReelWeight emptyWeight="0.960">2</SetLoadedReelWeight>
+    <LiveWeight>0</LiveWeight>
+    <ExtNum>0</ExtNum>
+    <SetExtNum>0</SetExtNum>
+  </Reel>
+</MMS>
+

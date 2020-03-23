@@ -1,0 +1,100 @@
+extends layout
+
+block content
+  script(src='/javascripts/mms.js', type='text/javascript')
+
+  script(type='text/javascript').
+    $(document).ready(function(){
+
+      //get unit config data (use to determine display units)...
+      $.get('unitData.xml', function(unitData){
+
+        //Store unitData for later
+        _unitData = unitData
+
+        //get reel data (use to build reel weight input/selection later)...
+        $.get('reelData.xml', function(reelData){
+
+          //Store reelData for later
+          _reelData = reelData;
+  
+          $.get('matData.xml', function(matData){
+            //console.log('GOT matData.xml');
+            _matData = matData;
+
+            //Set up server-side push events
+            /*var ev = new EventSource('/eventStream');
+            ev.addEventListener('message', function(result){
+              console.log(result.data);
+              if(result.data = 'new mms'){
+                location.reload();
+              }
+            });*/
+
+            ConstructMMSSummaryDisplay();
+          });
+        });
+      });
+    });
+
+
+  h1 MMS Summary
+
+  button(class='page-nav' onclick='location.href="/"; clearInterval(_mmsDisplayInterval);') Dash
+
+  p
+
+  div(id='unitsDiv')
+    b Unit Settings-<br/>
+    div(class='dropdown')
+      button(onclick='ToggleBasicDropdown("weightUnitDropdown")') Weight
+      div(id='weightUnitDropdown' class='dropdown-content')
+        button(onclick='SetDimensionUnit("Weight", "Kg", false, true);ToggleBasicDropdown("weightUnitDropdown");') Kg
+        button(onclick='SetDimensionUnit("Weight", "g", false, true);ToggleBasicDropdown("weightUnitDropdown");') g
+        button(onclick='SetDimensionUnit("Weight", "lb", false, true);ToggleBasicDropdown("weightUnitDropdown");') lb
+        button(onclick='SetDimensionUnit("Weight", "oz", false, true);ToggleBasicDropdown("weightUnitDropdown");') oz
+    div(class='dropdown')  
+      button(onclick='ToggleBasicDropdown("lengthUnitDropdown")') Length
+      div(id='lengthUnitDropdown' class='dropdown-content')
+        button(onclick='SetDimensionUnit("Length", "m", false, true);ToggleBasicDropdown("lengthUnitDropdown");') m
+        button(onclick='SetDimensionUnit("Length", "mm", false, true);ToggleBasicDropdown("lengthUnitDropdown");') mm
+        button(onclick='SetDimensionUnit("Length", "ft", false, true);ToggleBasicDropdown("lengthUnitDropdown");') ft
+        button(onclick='SetDimensionUnit("Length", "in", false, true);ToggleBasicDropdown("lengthUnitDropdown");') in
+      //-button(onclick='ToggleBasicDropdown("densityUnitDropdown")') Density
+      div(id='densityUnitDropdown' class='dropdown-content')
+        button(onclick='SetDimensionUnit("Density", "Kg/m^3", false, true);ToggleBasicDropdown("densityUnitDropdown");') Kg/m^3
+        button(onclick='SetDimensionUnit("Density", "g/cm^3", false, true);ToggleBasicDropdown("densityUnitDropdown");') g/cm^3
+        button(onclick='SetDimensionUnit("Density", "g/mm^3", false, true);ToggleBasicDropdown("densityUnitDropdown");') g/mm^3
+        button(onclick='SetDimensionUnit("Density", "oz/in^3", false, true);ToggleBasicDropdown("densityUnitDropdown");') oz/in^3
+        button(onclick='SetDimensionUnit("Density", "lb/ft^3", false, true);ToggleBasicDropdown("densityUnitDropdown");') lb/ft^3//
+    div(class='dropdown')  
+      button(onclick='ToggleBasicDropdown("diameterUnitDropdown")') Diameter
+      div(id='diameterUnitDropdown' class='dropdown-content')
+        button(onclick='SetDimensionUnit("MaterialDiameter", "mm", false, true);ToggleBasicDropdown("diameterUnitDropdown");') mm
+        button(onclick='SetDimensionUnit("MaterialDiameter", "in", false, true);ToggleBasicDropdown("diameterUnitDropdown");') in
+    div(class='dropdown')  
+      button(onclick='ToggleBasicDropdown("tempUnitDropdown")') Temperature
+      div(id='tempUnitDropdown' class='dropdown-content')
+        button(onclick='SetDimensionUnit("Temperature", "centigrade", false, true);ToggleBasicDropdown("tempUnitDropdown");') C
+        button(onclick='SetDimensionUnit("Temperature", "fahrenheit", false, true);ToggleBasicDropdown("tempUnitDropdown");') F
+  p
+
+  b MMSs-
+
+  p
+
+  div(id='mmsDataSumDiv')
+
+  img(class='diagramSmall' src='/images/MMSReelDiagram.png' alt='reelDiagram')
+
+  p
+
+  button(class='web-nav' onclick="window.open('http://pluralam.com','_blank')") Knowledge Base
+
+  button(class='web-nav' onclick="window.open('mailto:support@pluralam.com','_blank')") Open Support Ticket
+
+  img(src='/images/Plural_logo_with_tag-1.png' alt='logo' width='320' height='84' padding='10px' align='right')
+
+  iframe(id='newsFrame', src='https://pluralam.com/plural-news/')
+
+  p

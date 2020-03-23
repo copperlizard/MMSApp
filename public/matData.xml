@@ -1,0 +1,13 @@
+<Materials>
+  
+  
+    
+<Material><Name>ABS</Name><SpecificGravity>1.04</SpecificGravity><Density>1040</Density></Material><Material>
+    <Name>ASA</Name>
+    <SpecificGravity>1.08</SpecificGravity>
+    <Density>1080</Density>
+  </Material><Material><Name>ASA Black</Name><SpecificGravity>1.08</SpecificGravity><Density>1080</Density></Material><Material><Name>ASA Yellow</Name><SpecificGravity>1.07</SpecificGravity><Density>1070</Density></Material><Material><Name>E85A</Name><SpecificGravity>1.19</SpecificGravity><Density>1190</Density></Material><Material><Name>Elasto 95A</Name><SpecificGravity>1.12</SpecificGravity><Density>1120</Density></Material><Material><Name>Empty</Name><SpecificGravity>1.00</SpecificGravity><Density>1000</Density></Material><Material><Name>GF-30 PP</Name><SpecificGravity>2.67</SpecificGravity><Density>2670</Density></Material><Material><Name>PACF XG3</Name><SpecificGravity>1.14</SpecificGravity><Density>1140</Density></Material><Material><Name>SP701</Name><SpecificGravity>1.10</SpecificGravity><Density>1100</Density></Material><Material><Name>SP802C</Name><SpecificGravity>1.10</SpecificGravity><Density>1100</Density></Material><Material>
+    <Name>SSU00</Name>
+    <SpecificGravity>1.04</SpecificGravity>
+    <Density>1040.0</Density>
+  </Material><Material><Name>SSU00 Black</Name><SpecificGravity>1.04</SpecificGravity><Density>1040</Density></Material><Material><Name>SSU01</Name><SpecificGravity>1.24</SpecificGravity><Density>1240</Density></Material><Material><Name>SSU03</Name><SpecificGravity>1.25</SpecificGravity><Density>1250</Density></Material><Material><Name>SSU04</Name><SpecificGravity>1.12</SpecificGravity><Density>1120</Density></Material><Material><Name>SU301</Name><SpecificGravity>1.10</SpecificGravity><Density>1100</Density></Material><Material><Name>TECHG</Name><SpecificGravity>1.27</SpecificGravity><Density>1270</Density></Material></Materials>

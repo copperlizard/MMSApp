@@ -1,0 +1,26 @@
+{
+  "name": "mmsapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www" 
+    ,"stop": "pkill --signal SIGINT MMSApp"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "body-parser-xml": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serialport": "^6.0.4",
+    "serve-favicon": "~2.4.2",
+    "sse": "0.0.8",
+    "sse-nodejs": "^0.1.0",
+    "xmldom": "^0.1.27"
+  }
+}

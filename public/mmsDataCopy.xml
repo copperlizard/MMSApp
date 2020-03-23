@@ -1,0 +1,126 @@
+<MMSs>
+  <MMS ID="000000">
+    <Name>Left</Name>
+    <Connected>true</Connected>
+    <Humidity>0.2</Humidity>
+    <Nozzle num="1">
+      <Diameter>0.4</Diameter>
+      <HighTemp>false</HighTemp>
+      <AntiAbrasion>false</AntiAbrasion>
+    </Nozzle>
+    <Nozzle num="2">
+      <Diameter>0.4</Diameter>
+      <HighTemp>true</HighTemp>
+      <AntiAbrasion>false</AntiAbrasion>
+    </Nozzle>
+    <Nozzle num="3">
+      <Diameter>0.4</Diameter>
+      <HighTemp>true</HighTemp>
+      <AntiAbrasion>true</AntiAbrasion>
+    </Nozzle>
+    <Reel slot="A">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="4">0.4</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>1</ExtNum>
+    </Reel>
+    <Reel slot="B">
+      <Material>ASA</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>2</ExtNum>
+    </Reel>
+    <Reel slot="C">
+      <Material>SSU00</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>3</ExtNum>
+    </Reel>
+    <Reel slot="D">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+    <Reel slot="E">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+    <Reel slot="F">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+  </MMS>
+  <MMS ID="000001">
+    <Name>Right</Name>
+    <Connected>true</Connected>
+    <Humidity>0.2</Humidity>
+    <Nozzle num="1">
+      <Diameter>0.4</Diameter>
+      <HighTemp>true</HighTemp>
+      <AntiAbrasion>true</AntiAbrasion>
+    </Nozzle>
+    <Nozzle num="2">
+      <Diameter>0.4</Diameter>
+      <HighTemp>false</HighTemp>
+      <AntiAbrasion>true</AntiAbrasion>
+    </Nozzle>
+    <Nozzle num="3">
+      <Diameter>0.4</Diameter>
+      <HighTemp>false</HighTemp>
+      <AntiAbrasion>true</AntiAbrasion>
+    </Nozzle>
+    <Reel slot="A">
+      <Material>ASA</Material>
+      <MaterialDiameter>1.75</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>3</ExtNum>
+    </Reel>
+    <Reel slot="B">
+      <Material>ABS</Material>
+      <MaterialDiameter>1.75</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="4">0.41</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>2</ExtNum>
+    </Reel>
+    <Reel slot="C">
+      <Material>SSU00</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum>1</ExtNum>
+    </Reel>
+    <Reel slot="D">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+    <Reel slot="E">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+    <Reel slot="F">
+      <Material>ABS</Material>
+      <MaterialDiameter>2.85</MaterialDiameter>
+      <EmptyReelWeight loadedWeight="2">0.2</EmptyReelWeight>
+      <LiveWeight>0</LiveWeight>
+      <ExtNum/>
+    </Reel>
+  </MMS>
+</MMSs>

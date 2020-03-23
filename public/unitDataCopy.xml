@@ -1,0 +1,6 @@
+<Units>
+  <Weight>Kg</Weight>
+  <Length>m</Length>
+  <Density>Kg/m^3</Density>
+  <MaterialDiameter>mm</MaterialDiameter>
+</Units>
