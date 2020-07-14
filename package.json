@@ -3,24 +3,24 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www" 
-    ,"stop": "pkill --signal SIGINT MMSApp"
+    "start": "node ./bin/www",
+    "stop": "pkill --signal SIGINT MMSApp"
   },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "body-parser-xml": "^1.1.0",
-    "cheerio": "^1.0.0-rc.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^2.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
     "jQuery": "^1.7.4",
-    "jquery": "^3.2.1",
-    "morgan": "~1.8.1",
-    "pug": "~2.0.0-beta11",
-    "serialport": "^6.0.4",
-    "serve-favicon": "~2.4.2",
+    "jquery": "^3.5.1",
+    "morgan": "~1.10.0",
+    "pug": "~3.0.0",
+    "serialport": "^9.0.0",
+    "serve-favicon": "~2.5.0",
     "sse": "0.0.8",
     "sse-nodejs": "^0.1.0",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.3.0"
   }
 }

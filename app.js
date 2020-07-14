@@ -496,10 +496,11 @@ function UnitConnect(){
   //console.log('doing nothing...'); //DEBUG!!!!!!!!!!!!!
   //return; //DEBUG!!!!!!!!!!!!!!!!!!!
 
-  serialPort.list(function(err, ports){
-    if(err != null){
-      console.log('serialPort.list error: ' + err);
-    }
+  //serialPort.list(function(err, ports){
+  serialPort.list().then(ports => {
+    //if(err != null){
+    //  console.log('serialPort.list error: ' + err);
+    //}
     
     ports.forEach(function(port){
 
@@ -514,7 +515,7 @@ function UnitConnect(){
         }
       }
 
-      console.log(port.comName);
+      console.log(port.path);
       console.log(port.pnpId);
 
       if(port.manufacturer != undefined){
@@ -538,7 +539,7 @@ function UnitConnect(){
         bufersize: 256
       };
 
-      var openPort = new serialPort(port.comName, serOptions);
+      var openPort = new serialPort(port.path, serOptions);
       const lineParser = openPort.pipe(new readLine({delimiter: '\r'}));
       openPort.on('open', ShowPortOpen);
       //openPort.on('data', function(data){console.log('port data: ' + data.toString('utf8'));});
