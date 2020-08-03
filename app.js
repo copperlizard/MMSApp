@@ -47,7 +47,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // adding jquery...
-app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
+app.use('/jquery', express.static(__dirname + '/node_modules/jQuery/dist/'));
 
 app.use('/', index);
 app.use('/users', users);

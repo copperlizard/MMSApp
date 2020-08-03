@@ -6,7 +6,7 @@
 
 <MMS ID="1119-0001">
   <Name>New</Name>
-  <Connected>true</Connected>
+  <Connected>false</Connected>
   <RHP>38.2</RHP>
   <TempC>27.0</TempC>
   <Nozzle num="1">
