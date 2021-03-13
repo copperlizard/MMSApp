@@ -21,6 +21,6 @@
     "serve-favicon": "~2.5.0",
     "sse": "0.0.8",
     "sse-nodejs": "^0.1.0",
-    "xmldom": "^0.3.0"
+    "xmldom": "^0.5.0"
   }
 }
