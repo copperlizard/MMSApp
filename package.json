@@ -7,12 +7,12 @@
     "stop": "pkill --signal SIGINT MMSApp"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.2",
     "body-parser-xml": "^2.0.0",
     "cheerio": "^1.0.0-rc.3",
     "cookie-parser": "~1.4.5",
     "debug": "~4.1.1",
-    "express": "~4.17.1",
+    "express": "~4.17.3",
     "jQuery": "^1.7.4",
     "jquery": "^3.5.1",
     "morgan": "~1.10.0",
